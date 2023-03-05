@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+ 
+    <link href="/static/favicon/64.png" rel="icon" sizes="32x32" type="image/png">
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />  
+    <meta name=description content="A Secure DeFi Aggregator using Trusted Execution Environment"/>
+    <meta name="keywords" content="DeFi Aggregator, DEX Aggregator, Fast Aggregator, Trusted Execution Environment (TEE)">
+    <title>Trusted DeFi/DEX Aggregator - DeFi.io </title> 
+  </head>
+  <body>
+  </body>
+
+  <script> 
+     function IsPC(){  
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+        var flag = true;  
+        for (var v = 0; v < Agents.length; v++) {  
+            if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+        }  
+        return flag;  
+     }
+     if(IsPC()){
+        window.location.href = "/pc/";
+            
+     }else{ 
+        window.location.href = "/mobile/";
+     }
+     /* alert(navigator.userAgent);
+    if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+               //alert(navigator.userAgent);
+               window.location.href = "/mobile/index.html";
+               console.log("你正在使用iPhone|iPad|iPod|iOS访问此页面") 
+     } else if (/(Android)/i.test(navigator.userAgent)) {
+               //alert(navigator.userAgent);
+                window.location.href = "/mobile/index.html";
+               
+               console.log("你正在使用Android访问此页面");
+    } else {
+                window.location.href = "/pc/index.html";
+               console.log("你正在使用电脑访问此页面");
+    } */
+  </script>
+</html>

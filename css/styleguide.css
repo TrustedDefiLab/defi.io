@@ -1,0 +1,127 @@
+:root { 
+  --black: #000000;
+  --blue-jeans: #5abbf81f;
+  --blueberry: #706eff;
+  --eerie-black: #191919;
+  --governor-bay: #3041d7;
+  --heavy-metal: #2d2d2d;
+  --mauve: #f9acfc;
+  --orchid: #dc6be5;
+  --pampas: #f5f1f0;
+  --white: #ffffff;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 32px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 96px;
+ 
+  --font-family-figtree: "Figtree", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-product_sans-regular: "Roboto,serif", Helvetica;
+}
+.figtree-normal-heavy-metal-16px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.productsans-regular-normal-heavy-metal-18px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-product_sans-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.figtree-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.figtree-medium-eerie-black-18px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.figtree-semi-bold-heavy-metal-16px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.figtree-semi-bold-heavy-metal-14px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.figtree-medium-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.figtree-semi-bold-heavy-metal-32px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.figtree-semi-bold-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.productsans-regular-normal-heavy-metal-14px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-product_sans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.figtree-medium-heavy-metal-18px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-heavy-metal-16px {
+  color: var(--heavy-metal);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.figtree-medium-eerie-black-14px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-figtree);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
